@@ -10,76 +10,83 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 4rem;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     margin: 0rem 10rem 0rem 6rem;
+    padding: 1rem 1rem;
     font-weight: 700;
 }
 
-.container-header .caja1{
-    font-size: 17x;    
+.panel-derecho-header{
+    display: flex;
+    flex-direction: row;
+    gap: 0rem 1rem;
+    flex-wrap: wrap;
 }
 
-.container-header a{
-    font-size: 10px;
+.login , .boton-unete{
+    margin: 0.3rem 0rem;
+    font-size: 10px; 
 }
 
-.container-header .boton-join{
-    align-items: center;
-    border-radius: 4%;
-    font-size: 12px;
-    margin: 0rem 0rem 0rem 2rem;
-    padding: 1rem 2.5rem 1rem 1.5rem;
-}
-
-a{
+.login a{
     text-decoration: none;
     color: #96BB7C; 
 }
 
+.boton-join{
+    background-color:  #96BB7C;
+    color: #FFFFFF;
+    font-size: 10px;
+    border-radius: 4%;
+    padding: 1rem 1rem 1rem 0.5rem;
+} 
 
 .container-principal{
     display: flex;
     background-color: #DDF4FF;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
-
-h1{
-    font-size: 50px;
-}
+.container-principal img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: bottom;
+  }
 
 .logros{
     margin: 10rem 5rem 2rem 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-h4{
-    
+h4  {   
     margin: 1rem 0rem;
     color: #737373;
 }
 
-h5{
-    
-    margin: 1rem 0rem;
-    color: #96BB7C;
-}
-
-.panel-derecho{
-    display: flex;
-    flex-direction: column;
+a{
+    text-decoration: none;
 }
 
 .servicios{
     display: flex;
+    flex-wrap: wrap;
     justify-content:flex-start;
+    flex-direction: row;
     gap: 2%; 
-    margin: 0rem 0rem 0rem 6rem;
+    /* padding:2rem 0rem; */
+    margin: 0rem 1rem 1rem 6rem;
 }
 
-.boton-join , .cotizacion{
+.caja-cotizacion , .caja-masinfo{
+    margin: 1rem 0rem;
+}
+
+.cotizacion{
     background-color:  #96BB7C;
     color: #FFFFFF;
     font-size: 11px;
@@ -91,7 +98,7 @@ h5{
     border-style:solid;
     color: #96BB7C;
     font-size: 11px; 
-    padding: 10px 35px;    
+    padding: 10px 35px;   
 }
 
 .container-indicadores{
@@ -104,65 +111,60 @@ h5{
     margin: 2rem 8rem;
 }
 
-
-.caja-2 h2{
+.caja-2 h2  {
     color: #96BB7C;
     text-align: center;
 }
-   
 
-.caja-2 h5{
+
+.caja-2 h5  {
     color:#252B42;
 }
 
 .container-cursos{
    background-color:#FFF2F3;
+   /* justify-content: space-between; */
+   display:flex;
+   flex-direction: column;
+   flex-wrap: wrap;
    padding: 5rem 0rem; 
 }
 
-.panel-inferior-cursos{
-    display: flex;
-    margin: 2rem 9rem;  
-    flex-wrap: wrap;
+.panel-superior-cursos{
+    margin: 2rem 8rem;   
 }
 
 .container-accesos-cursos{
     background-color:#FFF2F3;
+    font-size: 10px;
     display: flex;
     justify-content: space-between;
-    margin: 2rem 8rem;
+    margin: 2rem 6rem 0rem 6rem;
+    flex-wrap: wrap;
+    padding: 1rem;
 }
 
-
-
-
-.caja7 ,.caja8 ,.caja9{
+.caja7 , .caja8 , .caja9{
     background-color: #FFFFFF;
-    width: 100%;
-    margin: 0rem 0.5rem;
-    padding: 2rem;
+    margin: 0.2rem 0.2rem;
+    padding: 1rem;
 }
 
-.container-footer{
+.container-footer {
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-between;
     margin: 0rem 7rem;
-
-
-    padding: 2rem;
-      justify-content: space-between;
+    padding: 2rem; 
 }
 
-footer 
-
-.caja-1 img{
+.caja-1 img {
    
     margin: 0rem 1rem;     
 }
 
-.caja-2 img{
+.caja-2 img {
     gap: 10%;
-    /* margin: 2rem 12rem;  */
 }
 
 
